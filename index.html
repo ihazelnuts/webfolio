@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap/CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<title>Webfolio</title>
+	<link rel="icon" href="img/hg-logo.png" type="image/icon type">
+</head>
+<body class="bg-black">
+
+	
+
+	<header>
+		<div class="desktopShow">
+			<div class="masthead d-flex align-items-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<p class="home-subtitle text-gradient-orange m-0">Welcome</p>
+							<h1 class="header-title text-white m-0"> I'm Hazel Saingan</h1>
+							<h1 class="header-title text-gradient-orange ml3"> Web Designer. </h1>
+							<p class="section-subtitle text-white">I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems.</p>
+
+							<div class="mt-4 inline heartbeat">
+								<a href="about.html" class="gradient-btn">More About Me</a>
+							</div>
+							<div class="mt-4 inline">
+								<a href="portfolio.html" class="gradient-btn ml-2">Portfolio</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mobileShow">
+			<div class="masthead-mobile d-flex align-items-center">
+				<div class="container text-center">
+					<img src="img/me-mobile.jpg" class="img-fluid rounded-circle me-mobile floating">
+					<div class="row">
+						<div class="col-md-8">
+							<p class="home-subtitle text-gradient-orange mb-0 mt-4">Welcome</p>
+							<h1 class="header-title text-white m-0"> I'm Hazel Saingan</h1>
+							<h1 class="header-title text-gradient-orange ml3"> Web Designer. </h1>
+							<p class="section-subtitle text-white">I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems.</p>
+
+							<div class="mt-4 inline">
+								<a href="about.html" class="gradient-btn">More About Me</a>
+							</div>
+							<div class="mt-4 inline">
+								<a href="" class="gradient-btn ml-2">Portfolio</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Scripts -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  	<script>
+  		// Wrap every letter in a span
+		var textWrapper = document.querySelector('.ml3');
+		textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+		anime.timeline({loop: false})
+		  .add({
+		    targets: '.ml3 .letter',
+		    opacity: [0,1],
+		    easing: "easeInOutQuad",
+		    duration: 1000,
+		    delay: (el, i) => 150 * (i+1)
+		  })
+  	</script>
+  	<script>
+	  	AOS.init();
+	</script>
+</body>
+</html>

@@ -377,6 +377,29 @@ hr{
     border: 2px solid #df040b;
   }
 }
+@media (max-height: 860px){
+  .desktopProfileShow{
+    display: none;
+  }
+  .mobileProfileShow{
+    display: inline;
+  }
+  .rowCenterMobile{
+    text-align: center !important;
+    width: 100%;
+  }
+   .bg-about{
+    height: 100%;
+  }
+  .aboutPadding{
+    padding-top: 53px;
+    padding-bottom: 53px;
+  }
+  .aboutProfile{
+    max-width: 50%;
+    border: 2px solid #df040b;
+  }
+}
 
 @media (max-width: 539px){
   .flex-content {

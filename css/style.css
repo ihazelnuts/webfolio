@@ -26,9 +26,12 @@ body{
   background: #181819;
 }
 .bg-about{
-  background:linear-gradient(to bottom,rgba(41 32 34 / 10%) 100%, rgba(71, 2, 20, 0.1) 50%);
-  background-size: cover;
+  background:#0f0e0f;
   height: 50vh;
+}
+.bg-about-mobile{
+  background:#0c0c0c;
+  height: 40vh;
 }
 .bg-educ{
   background:linear-gradient(to bottom,rgba(0 0 0 / 78%) 100%, rgba(0, 0, 0, 34.1) 50%),url('../img/grad.jpg');
@@ -126,6 +129,16 @@ body{
 .me-mobile{
   max-width: 50%;
   border: 2px solid #df040b;
+}
+.aboutimg{
+  height: 50vh;
+}
+.aboutimg-mobile{
+  height: 40vh;
+}
+.info-mobile{
+  border: 2px solid #0c0c0c;
+  background:linear-gradient(#17191a,#27292c);
 }
 ul, li{
   margin: 0;
@@ -361,39 +374,8 @@ hr{
   .mobileProfileShow{
     display: inline;
   }
-  .rowCenterMobile{
-    text-align: center !important;
-    width: 100%;
-  }
    .bg-about{
     height: 100%;
-  }
-  .aboutPadding{
-    padding-top: 53px;
-    padding-bottom: 53px;
-  }
-  .aboutProfile{
-    max-width: 50%;
-    border: 2px solid #df040b;
-  }
-}
-@media (max-height: 860px){
-  .desktopProfileShow{
-    display: none;
-  }
-  .mobileProfileShow{
-    display: inline;
-  }
-  .rowCenterMobile{
-    text-align: center !important;
-    width: 100%;
-  }
-   .bg-about{
-    height: 100%;
-  }
-  .aboutPadding{
-    padding-top: 53px;
-    padding-bottom: 53px;
   }
   .aboutProfile{
     max-width: 50%;

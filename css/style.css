@@ -175,6 +175,21 @@ hr{
   text-decoration: none;
   transition: 1s;
 }
+.enter-btn{
+  font-size: 26px;
+  font-weight: 800;
+  border: 1px solid #df040b;
+  color: #df040b;
+  padding: 10px 35px;
+  border-radius: 100px;
+}
+.enter-btn:hover{
+  color: #fff;
+  background: #df040b;
+  border: none; 
+  text-decoration: none;
+  transition: 1s;
+}
 .age-btn{
   font-size: 18px;
   font-weight: 800;

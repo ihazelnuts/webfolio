@@ -401,7 +401,7 @@ hr{
   .gradient-btn{
     width: 100%;
     display: block;
-    padding: 18px 17%;
+    padding: 14px 28px;
   }
 }
 
@@ -432,3 +432,5 @@ hr{
     flex: 1 0 43%;
   }
 }
+
+

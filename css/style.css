@@ -398,6 +398,11 @@ hr{
     background: #000;
     z-index: 1;
   }
+  .gradient-btn{
+    width: 100%;
+    display: block;
+    padding: 18px 17%;
+  }
 }
 
 @media (max-width: 1230px){

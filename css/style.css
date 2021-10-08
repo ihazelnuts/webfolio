@@ -15,6 +15,15 @@ body{
     -moz-background-size: cover;
     -webkit-background-size: cover;
 }
+.masthead-v2{
+  background: linear-gradient(rgba(255, 0, 0, .74), rgba(0, 0, 0)), url('../img/bg-v2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
 .masthead-mobile{
   background:url('../img/header.jpg');
   background-size: cover;

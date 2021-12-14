@@ -150,7 +150,7 @@ body{
 }
 .info-mobile{
   border: 2px solid #0c0c0c;
-  background:linear-gradient(#17191a,#27292c);
+  background:rgba(0,0,0,.4);
 }
 ul, li{
   margin: 0;
@@ -389,9 +389,6 @@ hr{
   }
   .header-title{
     font-size: 30px;
-  }
-  .section-subtitle{
-    font-size: 13px;
   }
   .menu-btn{
     transition: none;
